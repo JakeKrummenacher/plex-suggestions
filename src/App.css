@@ -41,9 +41,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  padding-top:50px;
+  justify-content: flex-start;
   height: 100vh;
-  background-color: #fafafa;
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
@@ -67,3 +67,11 @@ form .MuiButton-root {
   background-color: #0051cb;
 }
 
+@media(prefers-color-scheme: dark){
+  .App{
+    background-color: rgb(40, 40, 40);
+  }
+  .MuiAutocomplete{
+    color: white;
+  }
+}
